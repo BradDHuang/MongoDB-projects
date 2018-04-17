@@ -1,0 +1,53 @@
+What is ES6/...?
+ECMAScript (or ES) is a trademarked scripting-language specification standardized by Ecma International in ECMA-262 and ISO/IEC 16262. 
+It was created to standardize JavaScript, so as to foster multiple independent implementations. 
+JavaScript has remained the best-known implementation of ECMAScript since the standard was first published, 
+with other well-known implementations including JScript and ActionScript. 
+Coders commonly use ECMAScript for client-side scripting on the World Wide Web, 
+and it is increasingly being used for writing server applications and services using Node.js.
+
+What is Promise?
+The Promise object represents the eventual completion (or failure) of an asynchronous operation, and its resulting value.
+Syntax
+new Promise( /* executor */ function(resolve, reject) { ... } );
+
+Mongoose:
+A MongoDB object modeling tool designed to work in an asynchronous environment.
+
+Mocha:
+A feature-rich JavaScript test framework 
+running on Node.js and in the browser, 
+making asynchronous testing simple and fun. 
+Mocha tests run serially, allowing for flexible and accurate reporting, 
+while mapping uncaught exceptions to the correct test cases.
+
+Robo 3T (formerly Robomongo): 
+The free lightweight GUI for MongoDB enthusiasts.
+
+The graphical user interface (GUI): 
+A type of user interface that allows users to interact with electronic devices 
+through graphical icons and visual indicators such as secondary notation, 
+instead of text-based user interfaces, typed command labels or text navigation.
+
+"test": "nodemon --exec 'mocha -R min'" // this doesn't work on Windows!
+"test": "nodemon --exec \"mocha -R min\"" // this one works.
+"test": "SET NODE_ENV=test | nodemon --exec \"mocha --recursive -R min\""
+
+MVC:
+Model
+The Model component corresponds to all the data-related logic that the user works with. 
+View
+The View component is used for all the UI logic of the application. 
+Controller
+Controllers act as an interface between Model and View components to process all the business logic and incoming requests, 
+manipulate data using the Model component and interact with the Views to render the final output. 
+
+What is body-parser?
+Node.js body parsing middleware.
+Parse incoming request bodies in a middleware before your handlers, 
+available under the req.body property.
+
+before() 
+run once before all the tests in a describe, after() run once after all the tests; 
+beforeEach() 
+run before each test in a describe, afterEach() run after each test.
